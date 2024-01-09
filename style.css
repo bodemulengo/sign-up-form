@@ -1,0 +1,10 @@
+.personal{
+    display: flexbox;
+    height: auto;
+    
+}
+
+.main {
+    display: flexbox;
+    height: 300px;
+}
