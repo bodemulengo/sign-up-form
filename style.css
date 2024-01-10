@@ -1,10 +1,50 @@
-.personal{
-    display: flexbox;
-    height: auto;
+body {
+    background-color:aliceblue;
+
+}
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+}
+.formcontainer{
+    display: flex;
+    margin-top: 200px;
+    width: 900px;
+    height: 220px;
+    justify-content:center;
+    border: solid 0px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    
+}
+     
+img {
+    width: 450px;
     
 }
 
-.main {
-    display: flexbox;
-    height: 300px;
+#img2{
+    width: 100px;
+    height: 100px;
+    margin-left: 350px;
 }
+    
+
+#username, #usercontact, #userpassword  {
+    margin-top: 20px;
+    width: 220px;
+    height: 25px;
+    border-radius: 8px;
+}
+
+#submitbutton {
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: large;
+    font-family: norse ;
+}
+
+
+
+
