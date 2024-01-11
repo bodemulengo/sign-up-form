@@ -3,9 +3,10 @@ body {
 
 }
 .maincontainer{
-    display: flex;
+    display:flex;
     flex-direction: row;
 }
+
 .formcontainer{
     display: flex;
     margin-top: 200px;
@@ -25,9 +26,10 @@ img {
 #img2{
     width: 100px;
     height: 100px;
-    margin-left: 350px;
+    border: solid 1px;
+    margin-left: 300px;
 }
-    
+
 
 #username, #usercontact, #userpassword  {
     margin-top: 20px;
@@ -44,6 +46,8 @@ img {
     font-size: large;
     font-family: norse ;
 }
+
+
 
 
 
